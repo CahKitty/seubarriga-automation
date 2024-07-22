@@ -7,7 +7,7 @@ describe('Login', () => {
     cy.get('#email').type('CARLA.ANNUNCIATO@GMAIL.COM')
     cy.get('#senha').type('discovoador123')
     cy.get('.btn').click()
-    cy.contains('Bem vindo, Carla Regina!').should('be.visible')
+    cy.contains('Bem vindo, Carla Annunciato!').should('be.visible')
   })
 
   it('erro ao logar na plataforma', () => {
